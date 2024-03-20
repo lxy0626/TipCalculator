@@ -125,10 +125,10 @@ fun EditNumField(
  * Example would be "$10.00".
  */
 @VisibleForTesting
-//internal fun calculateTip(amount: Double, tipPercent: Double = 15.0): String {
-//    val tip = tipPercent / 100 * amount
-//    return NumberFormat.getCurrencyInstance().format(tip)
-//}
+internal fun calculateTip(amount: Double, tipPercent: Double = 15.0): String {
+    val tip = tipPercent / 100 * amount
+    return NumberFormat.getCurrencyInstance().format(tip)
+}
 
 @Preview(showBackground = true)
 @Composable
